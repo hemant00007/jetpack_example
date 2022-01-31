@@ -9,6 +9,7 @@
 
     <TextView
 
+        android:text="name"
         android:id="@+id/txtconter"
         android:textSize="40dp"
         android:layout_marginTop="50dp"
@@ -22,8 +23,17 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:layout_marginTop="50dp"
-        android:onClick="increment"
+      android:id="@+id/btn_send"
         android:text="+"
+        android:layout_marginLeft="150dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="write name"
         android:layout_marginLeft="150dp"
         />
 

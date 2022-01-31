@@ -2,10 +2,10 @@ package com.example.kotlin_demo
 
 import androidx.lifecycle.ViewModel
 
-class MainViewModel : ViewModel() {
-     var count:Int =1
+class MainViewModel(var initialvalue:String) : ViewModel() {
+     var myname:String =initialvalue
 
     fun increase(){
-        count++
+        myname
     }
 }
